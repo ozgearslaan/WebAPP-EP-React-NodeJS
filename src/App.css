@@ -1,0 +1,249 @@
+/* App.css */
+
+body {
+  margin: 0; 
+  padding: 0; 
+}
+
+.App {
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 250px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  color: rgb(31, 2, 2);
+  z-index: 1000;
+  overflow: auto;
+}
+
+.modal-icerik {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  border-radius: 12px;
+  width: 155px;
+  height: 175px;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
+
+.modal-kapat {
+  position: absolute;
+  top: 1px;
+  right: 4px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.modal.acik {
+  display: block;
+  width: 200px; 
+  height: 200px;
+}
+
+
+.modal-iceriks {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  border-radius: 12px;
+  width: 220px; 
+  height: 150px; 
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: black; 
+  max-height: 300px; 
+  overflow-y: auto; 
+}
+
+.modal-icerik3 {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  border-radius: 12px;
+  width: 220px; 
+  height: 150px; 
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: black;
+  max-height: 300px; 
+  overflow-y: auto; 
+}
+.tablo-penceresi {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  height: 450px;
+  width: 450px;
+  display: block;
+}
+
+.modal-kapats {
+  position: absolute;
+  top: 1px;
+  right: 4px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.modal-kapat3 {
+  position: absolute;
+  top: 1px;
+  right: 4px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.modal.aciks {
+  display: block;
+  width: 250px; 
+  height: 80px;
+  
+}
+
+.modal.acik3 {
+  display: block;
+  width: 250px; 
+  height: 80px;
+  
+}
+
+
+.table-penceresi .table-kapat {
+  cursor: pointer;
+  color: white;
+}
+
+
+.table-penceresi table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table-penceresi th,
+.table-penceresi td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+.table-penceresi th {
+  font-weight: bold;
+}
+
+.table-penceresi button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.table-icerik {
+  position: absolute;
+  top:  50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 95%; 
+  height: 400px;
+}
+
+.lejant-container {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.lejant-container.visible {
+  opacity: 0.7;
+  width: 180px; 
+  height: 225px;
+}
+
+.lejant {
+  font-family: 'Arial', sans-serif;
+  
+}
+
+.lejant-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.lejant-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.lejant-item {
+  margin-bottom: 8px;
+}
+
+.lejant-color-box {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  border: 1px solid #fff4f4;
+  border-radius: 4px;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.lejant-label {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: middle;
+  color: white;
+  vertical-align: middle;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 0px;
+  color: white;
+}
+
+.main {
+  padding: 50px;
+}
+
+.leaflet-container {
+  height: 860px;
+  width: 100%;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.leaflet-control.leaflet-bar {
+  background-color: transparent;
+}
+

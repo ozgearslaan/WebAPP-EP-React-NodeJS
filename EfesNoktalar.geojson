@@ -1,0 +1,5 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "NoktaKodu": 1000020, "NoktaAdi": "BALIKÇI YUSUF", "Ilce": "Yenişehir", "Il": "İçel-Mersin", "BagliOlduguBayiKodu": 10432, "BagliOlduguBayiAdi": "MERSİN-GÜNEY", "BagliOlduguMudurlukKodu": 1038, "BagliOlduguMudurlukAdi": "Güney Md.", "BagliOlduguDirektorlukAdi": "GÜNEY ANADOLU" }, "geometry": { "type": "Point", "coordinates": [ 34.610481, 36.785015 ] } }]
+}
